@@ -1,0 +1,12 @@
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\bin\Release\net5.0\DarioAyala.SvgConverter.Business.deps.json
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\bin\Release\net5.0\DarioAyala.SvgConverter.Business.dll
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\bin\Release\net5.0\ref\DarioAyala.SvgConverter.Business.dll
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\bin\Release\net5.0\DarioAyala.SvgConverter.Business.pdb
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\DarioAyala.SvgConverter.Business.csproj.AssemblyReference.cache
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\DarioAyala.SvgConverter.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\DarioAyala.SvgConverter.Business.AssemblyInfoInputs.cache
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\DarioAyala.SvgConverter.Business.AssemblyInfo.cs
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\DarioAyala.SvgConverter.Business.csproj.CoreCompileInputs.cache
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\DarioAyala.SvgConverter.Business.dll
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\ref\DarioAyala.SvgConverter.Business.dll
+C:\Users\AR00062500\code\code-tests\DarioAyala.SvgConverter\DarioAyala.SvgConverter.Business\obj\Release\net5.0\DarioAyala.SvgConverter.Business.pdb

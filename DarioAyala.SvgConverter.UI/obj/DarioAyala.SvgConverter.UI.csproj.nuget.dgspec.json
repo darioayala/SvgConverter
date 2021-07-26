@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.UI\\DarioAyala.SvgConverter.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.Business\\DarioAyala.SvgConverter.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.Business\\DarioAyala.SvgConverter.Business.csproj",
+        "projectName": "DarioAyala.SvgConverter.Business",
+        "projectPath": "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.Business\\DarioAyala.SvgConverter.Business.csproj",
+        "packagesPath": "C:\\Users\\AR00062500\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AR00062500\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://procde.prosegur.com/artifactory/api/nuget/summer.net-nuget-local": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Svg": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.UI\\DarioAyala.SvgConverter.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.UI\\DarioAyala.SvgConverter.UI.csproj",
+        "projectName": "DarioAyala.SvgConverter.UI",
+        "projectPath": "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.UI\\DarioAyala.SvgConverter.UI.csproj",
+        "packagesPath": "C:\\Users\\AR00062500\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AR00062500\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://procde.prosegur.com/artifactory/api/nuget/summer.net-nuget-local": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.Business\\DarioAyala.SvgConverter.Business.csproj": {
+                "projectPath": "C:\\Users\\AR00062500\\code\\code-tests\\DarioAyala.SvgConverter\\DarioAyala.SvgConverter.Business\\DarioAyala.SvgConverter.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

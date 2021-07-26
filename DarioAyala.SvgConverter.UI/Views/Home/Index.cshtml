@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="alertNotFile" class="alert alert-danger alert-dismissible collapse" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span> </button>
+    Se debe seleccionar un archivo a procesar
+</div>
+<div class="container-fluid">
+    <form enctype="multipart/form-data" method="post" class="form-horizontal">
+
+        <div class="row">
+            <div class="col-md-3">
+                <label class="" for="alphaValue"><strong>Opacity</strong></label><br>
+                <input id="alphaValue" class="form-control form-control-sm singleInput" type="number" step="0.01" max="1" min="0" value="1" />
+            </div>
+            <div class="col-md-3">
+                <label class=""><strong>Rotate</strong></label><br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="rotateAngle" class="label-control">Angle</label>
+                            <input class="form-control form-control-sm" type="number" name="rotateAngle" id="rotateAngle" value="0" step="1" /></span>
+                        </td>
+                        <td>
+                            <label for="rotateCenterX" class="label-control">Center X</label>
+                            <input class="form-control form-control-sm" type="number" name="rotateCenterX" id="rotateCenterX" value="0" />
+                        </td>
+                        <td>
+                            <label for="rotateCenterY" class="label-control">Center Y</label>
+                            <input class="form-control form-control-sm" type="number" name="rotateCenterY" id="rotateCenterY" value="0" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-3">
+                <label class="control-label"><strong>Scale</strong></label><br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="scaleX" class="label-control">X</label>
+                            <input class="form-control doubleInput form-control-sm" type="number" name="scaleX" id="scaleX" value="1" step=".1" />
+                        </td>
+                        <td>
+                            <label for="ScaleY" class="label-control">Y</label>
+                            <input class="form-control doubleInput form-control-sm" type="number" name="scaleX" id="scaleY" value="1" step=".1" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-3">
+                <label class="control-label"><strong>Translate</strong></label><br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="translateX" class="label-control">X</label>
+                            <input class="form-control doubleInput form-control-sm" type="number" name="translateX" id="translateX" value="0" step="1" />
+                        </td>
+                        <td>
+                            <label for="translateY" class="label-control">Y</label>
+                            <input class="form-control doubleInput form-control-sm" type="number" name="translateX" id="translateY" value="0" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <label class="control-label"><strong>Remove elements with bounding diagonal less than:</strong></label>
+                <input class="form-control singleInput form-control-sm" type="number" name="bbox" id="bbox" value="0" step="0.1" />
+            </div>
+            <div class="col-md-3">
+                <label class="control-label" for="bgColor"><strong>Background color selector</strong></label>
+                <input type="color" name="bgColor" id="bgColor" value="#FFFFFF" />
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <label class="control-label col-md-6" for="svgFile"><strong>Select SVG File</strong></label>
+                <input class="form-control" type="file" name="files" id="svgFile" />
+                <input id="submitBtn" class="btn btn-success btn-lg" type="submit" value="Process" />
+            </div>
+        </div>
+    </form>
+    <br>    
+    <div class="row">
+        <div class="col-md-6">
+            <h2>SVG</h2>
+            <canvas id="svgCanvas"></canvas>
+        </div>
+        <div class="col-md-6">
+            <h2>Bitmap</h2>
+            <img id="bmpRes" />
+        </div>
+    </div>
+</div>
